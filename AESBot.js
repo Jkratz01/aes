@@ -16,7 +16,7 @@ app.get('/', function(request, response) {
 //HEROKU NO IDLE
 var http = require("http");
 setInterval(function() {
-    http.get("http://aesbotdisc.herokuapp.com/");
+    http.get("http://aesbot52.herokuapp.com/");
     fortniteAPI.login().then(() => {
         try {
             registerKeys(true);
