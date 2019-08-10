@@ -48,7 +48,7 @@ client.on('ready', () => {
         console.log("   - " + guild.name)
     })
     client.user.setStatus("dnd");
-    client.user.setActivity("Aes Keys", { type: "Searching For"});
+    client.user.setActivity("OUT FOR NEW AES KEYS", { type: "WATCHING"});
 
     var cron = require('node-cron');
     fortniteAPI.login().then(() => {
