@@ -155,7 +155,7 @@ function processCommand(receivedMessage) {
     else if (primaryCommand == "ann")
     {
         receivedMessage.delete();
-        if (receivedMessage.member.roles.some(role => role.name === 'Owner'))
+        if (receivedMessage.member.roles.some(role => role.name === 'OWNER (DONT @)'))
         {
             try {
                 announcements(firstArguments, otherArguments);
