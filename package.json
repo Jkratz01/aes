@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/iAmAsval/AESBot#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "discord.js": "^11.4.2",
     "express": "^4.16.4",
     "fortnite-api": "^3.2.0",
